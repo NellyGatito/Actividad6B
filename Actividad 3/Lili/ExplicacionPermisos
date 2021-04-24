@@ -1,0 +1,18 @@
+Niveles y tipos de permisos para archivos
+Tipos de Permiso
+
+En cada uno de los niveles de permisos se pueden asignar los siguientes permisos
+
+    Lectura (r): En archivos Puede listar, copiar o visualizarlo. En Directorios pueden ver el contenido, se pueden listar a través del comando ls
+    Escritura (w): En archivos significa que se puede modificar o borrar el contenido, incluso puede modificar los permisos. En Directorios significa que puede crear, eliminar archivos y directorios dentro de ese directorio.
+    Ejecución (x): En archivos significa que se puede ejecutar el contenido. En Directorios significa que podemos entrar en la carpeta (comando cd).
+
+El comando ls –l lista el contenido de un directorio y el argumento l, muestra los permisos de cada uno de los archivos o directorios, se presenta de la siguiente manera.
+
+Niveles de Permiso
+
+Todos los archivos y directorios en Linux y Unix tienen tres niveles de permisos los cuales son:
+
+    Usuario: Propietario del archivo, se representa con la letra U, es quien crea el archivo o directorio
+    Grupo: Grupo propietario del archivo, se representa con la letra G, generalmente cada usuario pertenece al menos a un grupo de trabajo.
+    Otros o Resto de usuarios, se representa con la letra O, aquí se agrupan al resto de usuarios o grupos con el cual el propietario no tiene ningún vínculo, es decir el resto de usuarios del sistema.
